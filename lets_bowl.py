@@ -11,7 +11,7 @@ import os
 import math
 
 def put_your_shoes_on():
-    print ("Get your fancy bowling shoes on and get ready to bowl. ")
+    print ("Get your fancy bowling shoes on, polish your ball, and get ready to bowl. ")
 
     bowler_name = str(input("Enter the name of the bowler:"))
 
