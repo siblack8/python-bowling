@@ -24,7 +24,7 @@ def put_your_shoes_on():
         except  IOError:
             print ("I can't open ", scores_file_name, "The end is nigh")
             return
-        greeting = "Welcome to BAYSHORE BOWL " + bowler_name + "!"
+        greeting = "Welcome to BAYSHORE BOWLING CENTER " + bowler_name + "!"
         fscores.write(greeting)
         fscores.close()
         print(open(scores_file_name).read())
